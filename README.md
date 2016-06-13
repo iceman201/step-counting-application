@@ -1,5 +1,5 @@
 # Step Counting Application
-### [![CocoaPods](https://img.shields.io/badge/Swift-2.2-orange.svg)]()
+### [![CocoaPods](https://img.shields.io/badge/Swift-2.2-orange.svg)]() [![codebeat badge](https://codebeat.co/badges/25dcba5f-78ca-40cc-bf91-b162d4cc886c)](https://codebeat.co/projects/github-com-iceman201-step-counting-application)
 
 ## Introduction
 * This simple application is base on Apple Core Motion library. 
