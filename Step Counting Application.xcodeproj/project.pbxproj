@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CD78791D0EDA9200E22F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD78781D0EDA9200E22F27 /* AppDelegate.swift */; };
+		05CD787B1D0EDA9200E22F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD787A1D0EDA9200E22F27 /* ViewController.swift */; };
+		05CD787E1D0EDA9200E22F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CD787C1D0EDA9200E22F27 /* Main.storyboard */; };
+		05CD78811D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05CD787F1D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodeld */; };
+		05CD78831D0EDA9200E22F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CD78821D0EDA9200E22F27 /* Assets.xcassets */; };
+		05CD78861D0EDA9200E22F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CD78841D0EDA9200E22F27 /* LaunchScreen.storyboard */; };
+		05CD78911D0EDA9200E22F27 /* Step_Counting_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD78901D0EDA9200E22F27 /* Step_Counting_ApplicationTests.swift */; };
+		05CD789C1D0EDA9200E22F27 /* Step_Counting_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD789B1D0EDA9200E22F27 /* Step_Counting_ApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05CD788D1D0EDA9200E22F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CD786D1D0EDA9200E22F27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CD78741D0EDA9200E22F27;
+			remoteInfo = "Step Counting Application";
+		};
+		05CD78981D0EDA9200E22F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CD786D1D0EDA9200E22F27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CD78741D0EDA9200E22F27;
+			remoteInfo = "Step Counting Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CD78751D0EDA9200E22F27 /* Step Counting Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step Counting Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CD78781D0EDA9200E22F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05CD787A1D0EDA9200E22F27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05CD787D1D0EDA9200E22F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05CD78801D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Step_Counting_Application.xcdatamodel; sourceTree = "<group>"; };
+		05CD78821D0EDA9200E22F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05CD78851D0EDA9200E22F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05CD78871D0EDA9200E22F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CD788C1D0EDA9200E22F27 /* Step Counting ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step Counting ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CD78901D0EDA9200E22F27 /* Step_Counting_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_Counting_ApplicationTests.swift; sourceTree = "<group>"; };
+		05CD78921D0EDA9200E22F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05CD78971D0EDA9200E22F27 /* Step Counting ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step Counting ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CD789B1D0EDA9200E22F27 /* Step_Counting_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step_Counting_ApplicationUITests.swift; sourceTree = "<group>"; };
+		05CD789D1D0EDA9200E22F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CD78721D0EDA9200E22F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CD78891D0EDA9200E22F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CD78941D0EDA9200E22F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CD786C1D0EDA9200E22F27 = {
+			isa = PBXGroup;
+			children = (
+				05CD78771D0EDA9200E22F27 /* Step Counting Application */,
+				05CD788F1D0EDA9200E22F27 /* Step Counting ApplicationTests */,
+				05CD789A1D0EDA9200E22F27 /* Step Counting ApplicationUITests */,
+				05CD78761D0EDA9200E22F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CD78761D0EDA9200E22F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CD78751D0EDA9200E22F27 /* Step Counting Application.app */,
+				05CD788C1D0EDA9200E22F27 /* Step Counting ApplicationTests.xctest */,
+				05CD78971D0EDA9200E22F27 /* Step Counting ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CD78771D0EDA9200E22F27 /* Step Counting Application */ = {
+			isa = PBXGroup;
+			children = (
+				05CD78781D0EDA9200E22F27 /* AppDelegate.swift */,
+				05CD787A1D0EDA9200E22F27 /* ViewController.swift */,
+				05CD787C1D0EDA9200E22F27 /* Main.storyboard */,
+				05CD78821D0EDA9200E22F27 /* Assets.xcassets */,
+				05CD78841D0EDA9200E22F27 /* LaunchScreen.storyboard */,
+				05CD78871D0EDA9200E22F27 /* Info.plist */,
+				05CD787F1D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodeld */,
+			);
+			path = "Step Counting Application";
+			sourceTree = "<group>";
+		};
+		05CD788F1D0EDA9200E22F27 /* Step Counting ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				05CD78901D0EDA9200E22F27 /* Step_Counting_ApplicationTests.swift */,
+				05CD78921D0EDA9200E22F27 /* Info.plist */,
+			);
+			path = "Step Counting ApplicationTests";
+			sourceTree = "<group>";
+		};
+		05CD789A1D0EDA9200E22F27 /* Step Counting ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05CD789B1D0EDA9200E22F27 /* Step_Counting_ApplicationUITests.swift */,
+				05CD789D1D0EDA9200E22F27 /* Info.plist */,
+			);
+			path = "Step Counting ApplicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CD78741D0EDA9200E22F27 /* Step Counting Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CD78A01D0EDA9200E22F27 /* Build configuration list for PBXNativeTarget "Step Counting Application" */;
+			buildPhases = (
+				05CD78711D0EDA9200E22F27 /* Sources */,
+				05CD78721D0EDA9200E22F27 /* Frameworks */,
+				05CD78731D0EDA9200E22F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Step Counting Application";
+			productName = "Step Counting Application";
+			productReference = 05CD78751D0EDA9200E22F27 /* Step Counting Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05CD788B1D0EDA9200E22F27 /* Step Counting ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CD78A31D0EDA9200E22F27 /* Build configuration list for PBXNativeTarget "Step Counting ApplicationTests" */;
+			buildPhases = (
+				05CD78881D0EDA9200E22F27 /* Sources */,
+				05CD78891D0EDA9200E22F27 /* Frameworks */,
+				05CD788A1D0EDA9200E22F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CD788E1D0EDA9200E22F27 /* PBXTargetDependency */,
+			);
+			name = "Step Counting ApplicationTests";
+			productName = "Step Counting ApplicationTests";
+			productReference = 05CD788C1D0EDA9200E22F27 /* Step Counting ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05CD78961D0EDA9200E22F27 /* Step Counting ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CD78A61D0EDA9200E22F27 /* Build configuration list for PBXNativeTarget "Step Counting ApplicationUITests" */;
+			buildPhases = (
+				05CD78931D0EDA9200E22F27 /* Sources */,
+				05CD78941D0EDA9200E22F27 /* Frameworks */,
+				05CD78951D0EDA9200E22F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CD78991D0EDA9200E22F27 /* PBXTargetDependency */,
+			);
+			name = "Step Counting ApplicationUITests";
+			productName = "Step Counting ApplicationUITests";
+			productReference = 05CD78971D0EDA9200E22F27 /* Step Counting ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CD786D1D0EDA9200E22F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Liguo Jiao";
+				TargetAttributes = {
+					05CD78741D0EDA9200E22F27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8436A3G9R2;
+					};
+					05CD788B1D0EDA9200E22F27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 05CD78741D0EDA9200E22F27;
+					};
+					05CD78961D0EDA9200E22F27 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 05CD78741D0EDA9200E22F27;
+					};
+				};
+			};
+			buildConfigurationList = 05CD78701D0EDA9200E22F27 /* Build configuration list for PBXProject "Step Counting Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CD786C1D0EDA9200E22F27;
+			productRefGroup = 05CD78761D0EDA9200E22F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CD78741D0EDA9200E22F27 /* Step Counting Application */,
+				05CD788B1D0EDA9200E22F27 /* Step Counting ApplicationTests */,
+				05CD78961D0EDA9200E22F27 /* Step Counting ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CD78731D0EDA9200E22F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CD78861D0EDA9200E22F27 /* LaunchScreen.storyboard in Resources */,
+				05CD78831D0EDA9200E22F27 /* Assets.xcassets in Resources */,
+				05CD787E1D0EDA9200E22F27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CD788A1D0EDA9200E22F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CD78951D0EDA9200E22F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CD78711D0EDA9200E22F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CD787B1D0EDA9200E22F27 /* ViewController.swift in Sources */,
+				05CD78791D0EDA9200E22F27 /* AppDelegate.swift in Sources */,
+				05CD78811D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CD78881D0EDA9200E22F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CD78911D0EDA9200E22F27 /* Step_Counting_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CD78931D0EDA9200E22F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CD789C1D0EDA9200E22F27 /* Step_Counting_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CD788E1D0EDA9200E22F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CD78741D0EDA9200E22F27 /* Step Counting Application */;
+			targetProxy = 05CD788D1D0EDA9200E22F27 /* PBXContainerItemProxy */;
+		};
+		05CD78991D0EDA9200E22F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CD78741D0EDA9200E22F27 /* Step Counting Application */;
+			targetProxy = 05CD78981D0EDA9200E22F27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05CD787C1D0EDA9200E22F27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CD787D1D0EDA9200E22F27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05CD78841D0EDA9200E22F27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05CD78851D0EDA9200E22F27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05CD789E1D0EDA9200E22F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05CD789F1D0EDA9200E22F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05CD78A11D0EDA9200E22F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Step Counting Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McKay.Step-Counting-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		05CD78A21D0EDA9200E22F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Step Counting Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McKay.Step-Counting-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		05CD78A41D0EDA9200E22F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Step Counting ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McKay.Step-Counting-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Step Counting Application.app/Step Counting Application";
+			};
+			name = Debug;
+		};
+		05CD78A51D0EDA9200E22F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Step Counting ApplicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McKay.Step-Counting-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Step Counting Application.app/Step Counting Application";
+			};
+			name = Release;
+		};
+		05CD78A71D0EDA9200E22F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Step Counting ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McKay.Step-Counting-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Step Counting Application";
+			};
+			name = Debug;
+		};
+		05CD78A81D0EDA9200E22F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Step Counting ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "McKay.Step-Counting-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Step Counting Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CD78701D0EDA9200E22F27 /* Build configuration list for PBXProject "Step Counting Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CD789E1D0EDA9200E22F27 /* Debug */,
+				05CD789F1D0EDA9200E22F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CD78A01D0EDA9200E22F27 /* Build configuration list for PBXNativeTarget "Step Counting Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CD78A11D0EDA9200E22F27 /* Debug */,
+				05CD78A21D0EDA9200E22F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CD78A31D0EDA9200E22F27 /* Build configuration list for PBXNativeTarget "Step Counting ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CD78A41D0EDA9200E22F27 /* Debug */,
+				05CD78A51D0EDA9200E22F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05CD78A61D0EDA9200E22F27 /* Build configuration list for PBXNativeTarget "Step Counting ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CD78A71D0EDA9200E22F27 /* Debug */,
+				05CD78A81D0EDA9200E22F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05CD787F1D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05CD78801D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodel */,
+			);
+			currentVersion = 05CD78801D0EDA9200E22F27 /* Step_Counting_Application.xcdatamodel */;
+			path = Step_Counting_Application.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05CD786D1D0EDA9200E22F27 /* Project object */;
+}
