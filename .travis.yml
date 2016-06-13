@@ -1,7 +1,7 @@
 nguage: swift
 osx_image: xcode7.3
-xcode_project: GymWorkoutManager.xcworkspace
-xcode_scheme: GymWorkoutManager
+xcode_project: Step Counting Application.xcodeproj
+xcode_scheme: Step Counting Application
 xcode_sdk: iphonesimulator9.0
 after_success:
 - curl -o /tmp/travis-automerge https://raw.githubusercontent.com/cdown/travis-automerge/master/travis-automerge
