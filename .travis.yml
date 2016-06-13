@@ -1,5 +1,6 @@
 nguage: objective-c
 osx_image: xcode7.3
+sudo: true
 xcode_project: Step Counting Application.xcodeproj
 xcode_scheme: Step Counting Application
 xcode_sdk: iphonesimulator9.0
