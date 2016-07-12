@@ -14,4 +14,4 @@
 ##Reach Me
 * [My Webpage](http://iceman201.github.io/)
 * [LinkedIn](https://nz.linkedin.com/in/liguojiaouc)
-* Email: [liguo@jiao.co.nz](liguo@jiao.co.nz)
+* Email: <liguo@jiao.co.nz>
