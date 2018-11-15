@@ -22,21 +22,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let cal = NSCalendar.currentCalendar()
-        let now = NSDate()
-        let calendarComponents = cal.components([NSCalendarUnit.Month, NSCalendarUnit.Day, NSCalendarUnit.Year], fromDate: now)
-        let timeZone = NSTimeZone.systemTimeZone()
+        var cal = Calendar.current
+        let now = Date()
+        var calendarComponents = (cal as NSCalendar).components([NSCalendar.Unit.month, NSCalendar.Unit.day, NSCalendar.Unit.year], from: now)
+        let timeZone = TimeZone.current
         calendarComponents.hour = 0
         calendarComponents.minute = 0
         calendarComponents.second = 0
         cal.timeZone = timeZone
         
-        guard let midnightOfToday = cal.dateFromComponents(calendarComponents) else {
+        guard let midnightOfToday = cal.date(from: calendarComponents) else {
             return
         }
         if CMMotionActivityManager.isActivityAvailable() {
-            self.activityManager.startActivityUpdatesToQueue(NSOperationQueue.mainQueue(), withHandler: { (CMMotionData: CMMotionActivity?) in
-                dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            self.activityManager.startActivityUpdates(to: OperationQueue.main, withHandler: { (CMMotionData: CMMotionActivity?) in
+                DispatchQueue.main.async(execute: { () -> Void in
                     if let data = CMMotionData {
                         if data.stationary == true {
                             self.status.text = "Stationary"
@@ -52,22 +52,22 @@ class ViewController: UIViewController {
             })
         }
         if CMPedometer.isStepCountingAvailable() {
-            let startDate = NSDate(timeIntervalSinceNow: -86400 * 7)
-            self.pedoMeter.queryPedometerDataFromDate(startDate, toDate: NSDate(), withHandler: { (CMPData: CMPedometerData?, error:NSError?) in
-                dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            let startDate = Date(timeIntervalSinceNow: -86400 * 7)
+            self.pedoMeter.queryPedometerData(from: startDate, to: Date(), withHandler: { (CMPData: CMPedometerData?, error:NSError?) in
+                DispatchQueue.main.async(execute: { () -> Void in
                     if let data = CMPData {
                         self.steps.text = "\(data.numberOfSteps)"
                     }
                 })
-            })
+            } as! CMPedometerHandler)
 
-            self.pedoMeter.startPedometerUpdatesFromDate(midnightOfToday, withHandler: { (CMPData:CMPedometerData?, error:NSError?) in
-                dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            self.pedoMeter.startUpdates(from: midnightOfToday, withHandler: { (CMPData:CMPedometerData?, error:NSError?) in
+                DispatchQueue.main.async(execute: { () -> Void in
                     if let data = CMPData {
                         self.steps.text = "\(data.numberOfSteps)"
                     }
                 })
-            })
+            } as! CMPedometerHandler)
         }
     }
 
