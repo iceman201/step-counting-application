@@ -3,7 +3,7 @@ sudo: true
 osx_image: xcode10.1
 xcode_project: Step Counting Application.xcodeproj
 xcode_scheme: Step Counting Application
-xcode_sdk: iphonesimulator12.0
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
 after_success:
 - curl -o /tmp/travis-automerge https://raw.githubusercontent.com/cdown/travis-automerge/master/travis-automerge
 - chmod a+x /tmp/travis-automerge
